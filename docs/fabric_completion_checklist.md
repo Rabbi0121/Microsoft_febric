@@ -17,6 +17,7 @@ This checklist maps the assignment instructions to project deliverables in this 
 | User-friendly trigger via bot | Completed (Telegram only) | `fabric_project/integrations/telegram_bot.py` |
 | Warehouse star schema | Completed | `sql/fabric_warehouse_star_schema.sql` |
 | Documentation (dictionary, lineage, governance) | Completed | `docs/data_dictionary.md`, `docs/lineage.md`, `docs/governance_policies.md` |
+| Sensitivity label policy and procedure | Completed (documentation) / Pending (tenant enablement) | `docs/governance_policies.md` |
 | Extendability (last point) | Completed | `docs/extensibility.md`, extension contract in `extensions/base.py` |
 
 ## 2) Fabric Portal Finalization (Manual Click Steps)
@@ -39,6 +40,10 @@ Run these once in your Fabric workspace (`Fabric-Course-Project`) to finish clou
    - Configure `OPENAQ_API_KEY` and any connection secrets in Fabric.
 7. Validate:
    - Confirm Bronze/Silver/Gold outputs exist and pipeline run is green.
+8. Sensitivity labels (Purview):
+   - Ensure tenant setting and Git provider policy are enabled by admin.
+   - Apply labels to report/dashboard/semantic model/dataflow.
+   - Capture screenshots for submission evidence.
 
 ## 3) Local Validation Commands
 

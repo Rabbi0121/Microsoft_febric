@@ -62,6 +62,13 @@ These are environment/platform steps (not code defects):
    - Dataflow Gen2 entities saved (no empty QueriesMetadata)
    - Pipeline schedule active
    - Notebook and Warehouse execution green
+4. Apply Microsoft Purview sensitivity labels in Fabric and capture evidence:
+   - Label report, dashboard, semantic model, and dataflow.
+   - Confirm `Sensitivity` column is visible in list view.
+   - Save screenshots for submission packet.
+5. If Git integration is required directly from Fabric workspace:
+   - Ask tenant admin to enable GitHub provider in tenant settings.
+   - Complete workspace `Git integration` after provider is enabled.
 
 ## Notes
 

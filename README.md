@@ -70,6 +70,7 @@ Notes:
 - Extendability (last point): implemented through extension contract + registry.
 - External integration 1: weather + periodic sync + Grafana.
 - External integration 2: Great Expectations + Telegram trigger.
+- Information protection governance: sensitivity label policy/procedure in `docs/governance_policies.md`.
 
 For details, see:
 - `docs/architecture.md`
