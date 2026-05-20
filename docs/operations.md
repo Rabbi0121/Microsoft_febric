@@ -100,7 +100,17 @@ Run tests:
 python -m unittest discover -s tests -p 'test_*.py'
 ```
 
-## 5) Run Bot Triggers
+## 5) Generate Business-Question Answers (Submission Q1-Q4)
+
+```bash
+./scripts/run_project_questions.sh
+```
+
+Outputs:
+- `reports/insights/project_questions_<timestamp>.md`
+- `reports/insights/project_questions_<timestamp>.json`
+
+## 6) Run Bot Triggers
 
 Telegram:
 
@@ -115,13 +125,13 @@ Trigger commands:
 Optional channel/chat controls:
 - Telegram: `TELEGRAM_ALLOWED_CHAT_IDS=123456789,987654321`
 
-## 6) Documentation Deliverables
+## 7) Documentation Deliverables
 
 - Data dictionary: `docs/data_dictionary.md`
 - Lineage diagram: `docs/lineage.md`
 - Governance policy: `docs/governance_policies.md`
 
-## 7) Troubleshooting
+## 8) Troubleshooting
 
 Grafana error: `invalid: compilation failed ... $`
 - Cause: unresolved dashboard variable interpolation in Flux query.

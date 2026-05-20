@@ -44,6 +44,7 @@ cp .env.example .env
 # required for real-time OpenAQ API v3 ingestion
 ./scripts/run_pipeline.sh
 ./scripts/run_quality_checks.sh
+./scripts/run_project_questions.sh
 python -m unittest discover -s tests -p 'test_*.py'
 ```
 
